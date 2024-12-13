@@ -1,0 +1,4 @@
+repository "Pimp My Horse@Emedes@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,41 @@
+.zone_personnage {
+    flex-direction: column;
+    position: relative;
+}
+
+.decalage_radio {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.focused:focus {
+    background-color: rgb(255, 0, 0);
+}
+
+.bordure_affichage_prefab {
+    border-left-color: rgba(224, 224, 224, 0.53);
+    border-right-color: rgba(224, 224, 224, 0.53);
+    border-top-color: rgba(224, 224, 224, 0.53);
+    border-bottom-color: rgba(224, 224, 224, 0.53);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.dropdown_uss {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgb(197, 42, 44);
+    text-shadow: 2px 2px 0 rgba(120, 120, 120, 0.7);
+    align-self: auto;
+    align-items: center;
+    max-width: 50%;
+}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fin
+  - Zone
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Rhinoceros
+  - Water
+  - UI
+  - Cerf
+  - Licorne
+  - Player
+  - Elephant
+  - Girafe
+  - Joueur 1
+  - Joueur 2
+  - Joueur 3
+  - Joueur 4
+  - Crocodile
+  - ChevalFeu
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

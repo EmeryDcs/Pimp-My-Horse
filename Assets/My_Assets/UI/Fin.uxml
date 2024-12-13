@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/My_Assets/UI/USS/fin.uss?fileID=7433441132597879392&amp;guid=dd7719720bcfaa341bd4ba018620107b&amp;type=3#fin" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center;">
+        <ui:Label tabindex="-1" text="GG JOUEUR " parse-escape-sequences="true" display-tooltip-when-elided="true" class="text" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="numero-joueur" class="text" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+    </ui:VisualElement>
+</ui:UXML>
