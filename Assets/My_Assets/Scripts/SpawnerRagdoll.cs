@@ -32,9 +32,9 @@ public class SpawnerRagdoll : MonoBehaviour
 			Vector3 position = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z);
 			Quaternion rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
 
-			int random = Random.Range(0, 5);
+			int random = Random.Range(0, 7);
 
-			for (int i = 0; i < 5; i++)
+			for (int i = 0; i < 7; i++)
 			{
 				if (i == random)
 				{
