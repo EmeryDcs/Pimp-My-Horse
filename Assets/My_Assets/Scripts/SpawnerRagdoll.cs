@@ -7,6 +7,7 @@ public class SpawnerRagdoll : MonoBehaviour
     public GameObject prefabRagdoll;
 
 	public List<GameObject> prefabs = new List<GameObject>();
+	public int nombreBouees = 7;
 
 	public List<Material> materials = new List<Material>();
 	private int lengthMaterials;
@@ -32,9 +33,9 @@ public class SpawnerRagdoll : MonoBehaviour
 			Vector3 position = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z);
 			Quaternion rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
 
-			int random = Random.Range(0, 7);
+			int random = Random.Range(0, nombreBouees);
 
-			for (int i = 0; i < 7; i++)
+			for (int i = 0; i < nombreBouees; i++)
 			{
 				if (i == random)
 				{
